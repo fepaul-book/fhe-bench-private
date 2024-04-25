@@ -48,7 +48,6 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: ./cloud-setup/container/container-plain-plain/
-          file: Dockerfile
           push: true
           tags: ${{ steps.meta-app.outputs.tags }}
           cache-from: type=gha
