@@ -47,7 +47,7 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v3
         with:
-          context: ./cloud-setup/container-plain-plain
+          context: ./cloud-setup/container/container-plain-plain/
           file: Dockerfile
           push: true
           tags: ${{ steps.meta-app.outputs.tags }}
