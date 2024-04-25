@@ -1,0 +1,7 @@
+# git
+.git
+.gitattributes
+.gitignore
+
+__pycache__
+.venv
